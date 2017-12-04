@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.breezil.firebaseloginregistration.MainUserArea">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical"
+     android:layout_alignParentTop="true"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentStart="true">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailget"
+        android:textSize="20dp"
+        android:text="Email"
+        android:layout_gravity="center_horizontal"
+        />
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/fullName"
+         android:hint="Enter Full Name"/>
+
+     <EditText
+         android:id="@+id/address"
+         android:layout_width="match_parent"
+         android:layout_height="59dp"
+         android:hint="Age" />
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Save"
+         android:id="@+id/saveBtn"/>
+
+     <Button
+         android:id="@+id/LogoutBtn"
+         android:layout_width="176dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:text="Log Out" />
+
+  <Button
+      android:id="@+id/homePage"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Home Page"
+     />
+
+
+ </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "134984647292",
+    "firebase_url": "https://fir-login-registration-c8f2a.firebaseio.com",
+    "project_id": "fir-login-registration-c8f2a",
+    "storage_bucket": "fir-login-registration-c8f2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134984647292:android:0627cb805bfc4025",
+        "android_client_info": {
+          "package_name": "com.example.breezil.firebaseloginregistration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134984647292-f0chu82n4hgh5rudmf235tmukgddbkgq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.breezil.firebaseloginregistration",
+            "certificate_hash": "60e37581f12a20e5af72ef1829e4872a1754eb90"
+          }
+        },
+        {
+          "client_id": "134984647292-lspic7a4botaf0nv9gjolphlp4sbavtk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCruFXy4GAxJ1pYna9eO_SNbHRIGqUvY0o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134984647292-lspic7a4botaf0nv9gjolphlp4sbavtk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
